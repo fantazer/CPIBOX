@@ -1,0 +1,287 @@
+include block_html/_style.pug
+include block_html/_include.pug
+
+
+.section-main
+	.header-wrap
+		.main-cont
+			.header
+				a(href="/").logo IT Expert
+				.nav
+					a(href="#capability" rel='m_PageScroll2id').nav__el Возможности
+					a(href="#cost" rel='m_PageScroll2id').nav__el Стоимость
+					a(href="#advant" rel='m_PageScroll2id').nav__el Преимущества
+					a(href="#about" rel='m_PageScroll2id').nav__el О компании
+					a(href="#order" rel='m_PageScroll2id').nav__el Заявка
+				.head-toggle.js-slide-block-toggle(data-menu="menu")
+					+icon("menu","icon icon-open")
+	.section-main__shape
+		img(src="img/circle.svg", alt="")
+	.slogan-wrap
+		.main-cont
+			.slogan
+				.slogan__title CPI Box Creatio
+				.slogan__text Повышение требований к уровню организации процессов и качеству предоставления ИТ-услуг. Потребность в централизованном инструменте управления ИТ между всеми субъектами. Компании, обеспечивающего единство в целях развития ИТ.
+
+				a(href="/doc/app.zip").slogan__get Скачать демонстрацию
+				//a(href="/doc/insruction-install.docx").slogan__get-text инструкция по установке
+		.slogan-img
+			img(src="img/laptop.png", alt="")
+
+.slide-block.slide-block--right.slide-block--menu(data-menu="menu")
+		.slide-block-wrap
+			+icon("close","icon icon-close js-slide-block-toggle" )
+			.slide-nav
+				-
+					var items = [
+						{name: "Возможности", id: "#capability"},
+						{name: "Стоимость", id: "#cost"},
+						{name: "Преимущества", id: "#advant"},
+						{name: "О компании", id: "#about"},
+						{name: "Заявка", id: "#order"},
+					];
+				each item in items
+					a(href = item.id rel = 'm_PageScroll2id' ).slide-nav__el #{item.name}
+
+.shape-wrap
+	.advant-wrap
+		.shape.shape-1
+			img(src="img/shape-1.svg", alt="")
+		.shape.shape-2
+			img(src="img/shape-1.svg", alt="")
+		.shape.shape-3
+			img(src="img/shape-1.svg", alt="")
+		.main-cont
+			.title.title--xl.type--center Почему стоит выбрать нас
+			.advant
+				.advant__el
+					.advant__el-icon
+						+icon("box-way","icon")
+					.advant__wrap
+						.advant__el-title Анализ
+						.advant__el-text Обследование объекта автоматизациии проведение интервью с функциональными заказчиками позволяет в сжатые сроки разработать модель данных
+				.advant__el
+					.advant__el-icon
+						+icon("checklist","icon")
+					.advant__wrap
+						.advant__el-title Настройка:
+						.advant__el-text Заказчик получает не просто коробочный продукт. В ПО производится настройка всех справочников системы, требуемых алгоритмов расчета
+				.advant__el
+					.advant__el-icon
+						+icon("cloud-computing","icon")
+					.advant__wrap
+						.advant__el-title Внедрение
+						.advant__el-text Привлекая наших консультантов, вы получаете профессиональную поддержку в ходе подготовки объекта автоматизации к вводу ПО в действие
+				.advant__el
+					.advant__el-icon
+						+icon("compasses","icon")
+					.advant__wrap
+						.advant__el-title Понимание ситуации целиком
+						.advant__el-text Для того чтобы получить объективную оценку относительно возможных неуправляемых процессов и ИТ-рисков, стоит прибегнуть к услугам компании
+				.advant__el
+					.advant__el-icon
+						+icon("computer","icon")
+					.advant__wrap
+						.advant__el-title Стратегия в каждом шаге:
+						.advant__el-text Целостный процессно-ориентированный подход к управлению ИТ-процессами и принятию управленческих решений.
+
+	.btn-row-mid
+		a(href="/doc/doc.zip").btn--md.btn--mark Смотреть документацию
+
+	.tools-wrap#capability
+		.main-cont
+			.title.title--xl.type--center Возможности системы
+			.tools
+				a(href="img/tools-1.png" data-fancybox="images").fancybox.tools__img
+					img(src="img/laptop.png", alt="")
+				.tools__info
+					.tools__title Модуль "Проверка"
+					.tools__text
+						ul
+							li Формирование шаблонов проверок (каталогов контрольных вопросов)
+							li Детализация требований к свидетельствам и пояснениям в разрезе контрольных вопросов
+							li Планирование комплексных проверок
+							li Формирование реестра комплексных проверок
+							li Формирование программ оценки уровня «зрелости» процессов
+							li Распределение контрольных вопросов по исполнителям, верификаторам и аудиторам
+							li Проведение проверок, включая процедуры самооценки, верификации, валидации (оценки уровня «зрелости»)
+							li Агрегация оценок
+							li Учет на всех этапах проверки соответствующих комментариев и пояснений к качественным и количественным оценкам
+			.tools
+				a(href="img/laptop.png" data-fancybox="images").fancybox.tools__img
+					img(src="img/laptop.png", alt="")
+				.tools__info
+					.tools__title Модуль "Контрольные мероприятия"
+					.tools__text
+						ul
+							li Регистрация, редактирование и контроль недостатков, выявленных в ходе оценки уровня «зрелости» процессов
+							li Формирование мероприятий по устранению выявленных недостатков
+							li Обеспечение мониторинга контрольных мероприятий
+							li Возможность выявления недостатков и рисковых событий в рамках целевых проверок
+			.tools
+				a(href="img/laptop.png" data-fancybox="images").fancybox.tools__img
+					img(src="img/laptop.png", alt="")
+				.tools__info
+					.tools__title Модуль "Отчеты"
+					.tools__text
+						ul
+							li Итоговые отчеты по комплексным проверкам
+							li Аналитические отчеты по всем стадиям проверки (программа проверки, отчет о самооценке, задание на оценку по существу, отчет по итогам оценки по существу)
+							li Отчеты о ходе мероприятий, направленных на устранение выявленных отклонений по результатам проверок
+			.btn-row-mid
+				a(href="/doc/itsm-function.docx").btn--md.btn--mark.btn--mobile Смотреть все возможности
+
+.shape-wrap
+	.water-text CPI BOX
+	.shape.shape-4
+		img(src="img/shape-2.svg", alt="")
+	.section.section--dark
+		.main-cont
+			.solution
+				.solution__title Какие проблемы решает CPI Box Creatio
+				.solution__info
+					.solution__el Повышение требований к уровню организации процессов и качеству предоставления ИТ-услуг.
+					.solution__el Потребность в централизованном инструменте управления ИТ между всеми субъектами.
+					.solution__el Создание единых требований к подходам управления и развития ИТ различных объектов.
+					.solution__el Рост количества видов деятельности, автоматизируемых процессов, пользователей, обращений в ИТ.
+					.solution__el Невозможно обеспечить эффективность контрольных процедур «ручным способом».
+					.solution__el Переход от «работы по отказам» к превентивным плановым мероприятиям по развитию.
+					.solution__el Необходимость осуществлять постоянный контроль организации и исполнения процессов.
+
+.section.section--mark#advant(style="background-image:url('img/item-1.jpg')")
+	.main-cont
+		.title.title--xl.type--center Почему ITSM Box Creatio
+		ul.why.list
+			li Повышение качества обслуживания.
+			li Повышение производительности.
+			li Оптимизация затрат.
+			li Обеспечение непрерывности и эффективности бизнеса.
+			li Получение полного представления о любом процессе или услуге.
+			li Предоставление оперативной информации в режиме реального времени.
+			li Консолидация неэффективных инструментов в	единую систему.
+			li Легкая миграция.
+			li Гибкая масштабируемость системы на любой стадии внедрения.
+			li Развитие и поддержка технологий на уровне мировых тенденций.
+			li Гибкие интеграционные возможности.
+			li Индивидуальная настройка системы под бизнес-задачи заказчика с помощью мастеров настройки функциональных блоков.
+
+.section.section--clear
+	.main-cont
+		.business
+			.business__info
+				.title.title--clear.title--xl В чем ценность для бизнеса
+				ul.list
+					li Создание эффективного механизма оценки текущего уровня зрелости процессов и его возможностей
+					li Определение необходимого уровня зрелости процессов, с точки зрения экономической целесообразности затрат на их развитие
+					li Обеспечить эффективное управление процессами и создание культуры внутреннего совершенствования процессов
+					li Непрерывно усовершенствовать процессы и прогнозировать будящий рост зрелости процессов используя созданные на год планы развития процессов
+					li Предоставление акционерам, ТОП-менеджменту и руководителям подразделений необходимую управленческую информацию
+			.business__img
+				img(src="img/laptop-circle.jpg", alt="")
+
+
+.section.shape-wrap#cost
+	.shape.shape-5
+		img(src="img/shape-2.svg", alt="")
+	.main-cont
+		.title.title--xl.type--center Стоимость лицензии
+		.payment
+			.payment__el
+				.payment__title CPI Box Creatio
+				.payment__descr cloud / on-site subscription
+				.payment__cost 1 152 <span>USD</span>
+				.payment__cost-text пользователь / год
+				a(href="#order" rel='m_PageScroll2id').payment__get.btn--md.btn--empty Заполнить заявку
+			.payment__el
+				.payment__title CPI Box Creatio
+				.payment__descr add-on one-time payment
+				.payment__cost 345 609 <span>USD</span>
+				.payment__cost-text единоразово
+				a(href="#order" rel='m_PageScroll2id').payment__get.btn--md.btn--mark Заполнить заявку
+			.payment__el.payment__el--gray
+				.payment__title Условия поддержки
+				.payment__cost-text Техническая поддержка доступна в будние дни
+				.payment__cost-text с 9:00 до 18:00 <br> (GMT +03:00)
+				.payment__cost-text В стоимость входит 5 часов поддержки
+				a(href="#order" rel='m_PageScroll2id').payment__get.btn--md.btn--empty Заполнить заявку
+
+
+.section.section--clear-mobile#about
+	.about-wrap
+		.about-img
+			img(src="img/shape-4.svg", alt="")
+		.main-cont
+			.about
+				.about-info
+					.about-title Опыт IT Expert
+					ul.about-list.list
+						li Компания основана в 2002 году и до настоящего времени является лидером на рынке консалтинговых и тренинговых услуг в области управления бизнес-процессами
+						li За 15 лет компания выполнила более 350	консалтинговых и аудиторских ИТ-проектов
+						li IT Expert имеет уникальный опыт участия в программах совершенствования управления информационными и смежными технологиями в крупных российских организациях
+						li IT Expert в проектах решает различные задачи и выполняет ключевые роли: управляет ходом программ, осуществляет независимый и авторский надзор, предоставляет ключевую экспертизу, обеспечивает направляющий консалтинг
+
+.section.section--dark.section--order.shape-wrap#order
+	.shape.shape-6
+		img(src="img/shape-1.svg", alt="")
+	.main-cont
+		.order
+			.order__info
+				.order-title Свяжитесь с нами
+				.order-text Если у вас остались вопросы по лицензии, внедрению или вы хотите заказать демонстрацию системы.
+			.order__form
+				form(action="javascript:void(null);").order-form-el.validate-form.form
+					.title.title--clear.title--lg Форма заявки
+					.input-cont
+						.input-row
+							.input-row__title Ваше имя
+							input(type="text" placeholder="Ф.И.О." class="input" name="name")
+					.input-cont
+						.input-row
+							.input-row__title Ваш телефон
+							input(type="text" placeholder="Введите Ваш телефон" class="input" name="phone")
+					.input-cont
+						.input-row
+							.input-row__title Ваше сообщение
+							textarea(name="text", cols="30", rows="5" class="input" placeholder="Сообщение")
+					//checkbox remember
+					.login-remember
+						.check-el
+							label.style-label.style-label--checkbox
+								input(type="checkbox" name="agree").style-input
+								.style-input-element
+									+icon("checked","icon")
+								.style-input-text Я даю согласие на обработку моих персональных данных
+					input(type="submit" value="Отправить" class="btn--md btn--mark btn--full")
+
+.footer-wrap
+	.main-cont
+		.footer
+			.footer-nav
+				each item in items
+					a(href = item.id rel='m_PageScroll2id').footer-nav__el #{item.name}
+			.footer-title CPI BOX
+			.footer-text Автоматизируйте процессы, <br> связанные с оказанием ИТ-услуг
+			a(href="tel:+7 (495) 981-57-10").footer-phone +7 (495) 981-57-10
+			a(href="mailto:info@itexpert.ru").footer-mail info@itexpert.ru
+			.soc-row
+				a(href="https://www.facebook.com/itexpert.ru?fref=ts").soc-row__el
+					+icon("soc-facebook","icon")
+				a(href="https://www.instagram.com/itexpert.ru/").soc-row__el
+					+icon("soc-instagram","icon")
+				a(href="https://www.youtube.com/ITEXPERTRU/").soc-row__el
+					+icon("soc-youtube","icon")
+			a(href="https://www.itexpert.ru/").footer-logo www.itexpert.ru
+
+.modal-layer
+	.modal-filter
+	.modal-wrap
+		//success message
+		.modal(data-modal="trueMsg")
+			.modal-content.modal-content--true
+				.modal-close
+					+icon("close-fat","icon")
+				img(src="img/email.svg", alt="")
+				.modal-title Спасибо за заявку
+				.modal-text  Ваше сообщение отправленно, мы скоро свяжемся с Вами.
+
+include ./block_html/_script.pug
