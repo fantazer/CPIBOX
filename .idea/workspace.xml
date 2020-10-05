@@ -10,34 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="add mobile version">
-      <change afterPath="$PROJECT_DIR$/app/img/service-3-full.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/service-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="deploy version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/style.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/style.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/elements.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/error-404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/error-500.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/html/block_html/_style.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/block_html/_style.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/html/elements.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/html/error-404.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/html/error-500.pug" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/html/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/html/main.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/html/modal.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/modal.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/style-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style-min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/elements.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/error-404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/error-500.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/modal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +42,7 @@
     <property name="add_unversioned_files" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/img" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -201,14 +177,8 @@
       <workItem from="1600858991853" duration="10884000" />
       <workItem from="1600940193650" duration="1983000" />
       <workItem from="1600943155316" duration="4489000" />
-      <workItem from="1601023276395" duration="3648000" />
-    </task>
-    <task id="LOCAL-00002" summary="fix css variable + mozjpg">
-      <created>1520847111442</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1520847111443</updated>
+      <workItem from="1601023276395" duration="5736000" />
+      <workItem from="1601888499494" duration="148000" />
     </task>
     <task id="LOCAL-00003" summary="add modal + slick + some fixes">
       <created>1538413870583</created>
@@ -546,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600948343328</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="deploy version">
+      <created>1601030325977</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1601030325978</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -587,7 +564,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="add soc icon" />
     <MESSAGE value="fix input style" />
     <MESSAGE value="add full page template" />
     <MESSAGE value="add mixin link" />
@@ -612,17 +588,18 @@
     <MESSAGE value="fix inputs" />
     <MESSAGE value="fix favicon" />
     <MESSAGE value="add mobile version" />
-    <option name="LAST_COMMIT_MESSAGE" value="add mobile version" />
+    <MESSAGE value="deploy version" />
+    <option name="LAST_COMMIT_MESSAGE" value="deploy version" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1488" y="302" key="#Scopes" timestamp="1595160507526">
       <screen x="-2560" y="-256" width="2560" height="1400" />
     </state>
     <state x="-1488" y="302" key="#Scopes/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1595160507526" />
-    <state x="-1753" y="-103" key="CommitChangelistDialog2" timestamp="1600948339091">
+    <state x="-1753" y="-103" key="CommitChangelistDialog2" timestamp="1601030323942">
       <screen x="-2560" y="-256" width="2560" height="1400" />
     </state>
-    <state x="-1753" y="-103" key="CommitChangelistDialog2/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1600948339091" />
+    <state x="-1753" y="-103" key="CommitChangelistDialog2/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1601030323942" />
     <state x="605" y="114" key="CommitChangelistDialog2/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@0.0.1920.1040" timestamp="1594210490240" />
     <state x="-1753" y="-103" key="CommitChangelistDialog2/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1599741743768" />
     <state x="-2174" y="-131" key="DiffContextDialog" timestamp="1595160347621">
@@ -641,15 +618,15 @@
       <screen x="-2560" y="-256" width="2560" height="1400" />
     </state>
     <state x="-1455" y="165" key="Github.UntrackedFilesDialog/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1600875101063" />
-    <state x="-1779" y="87" key="SettingsEditor" timestamp="1600940452628">
+    <state x="-2146" y="87" width="1365" height="928" key="SettingsEditor" timestamp="1601040315133">
       <screen x="-2560" y="-256" width="2560" height="1400" />
     </state>
-    <state x="-1779" y="87" key="SettingsEditor/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1600940452628" />
+    <state x="-2146" y="87" width="1365" height="928" key="SettingsEditor/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1601040315133" />
     <state x="-1779" y="87" key="SettingsEditor/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1600875072567" />
-    <state x="-2560" y="-256" key="Vcs.Push.Dialog.v2" timestamp="1600948351250">
+    <state x="-2560" y="-256" key="Vcs.Push.Dialog.v2" timestamp="1601030442611">
       <screen x="-2560" y="-256" width="2560" height="1400" />
     </state>
-    <state x="-2560" y="-256" key="Vcs.Push.Dialog.v2/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1600948351250" />
+    <state x="-2560" y="-256" key="Vcs.Push.Dialog.v2/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1601030442611" />
     <state x="0" y="0" key="Vcs.Push.Dialog.v2/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@0.0.1920.1040" timestamp="1594210493162" />
     <state x="-1959" y="65" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1599741738981" />
     <state x="-1414" y="288" key="cloudConfig.SelfSettingsDialog" timestamp="1595160633744">
